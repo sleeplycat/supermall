@@ -1,6 +1,7 @@
 <template>
   <div class="feature">
-
+    <a href="https://act.mogujie.com/zz;x67">
+    <img src="~assets/img/home/recommend_bg.jpg" alt=""></a>
   </div>
 </template>
 
@@ -15,8 +16,8 @@ export default {
  }
 </script>
 
-<style lang="" scoped>
-  .feature{
-
+<style  scoped>
+  .feature img{
+    width: 100%;
   }
 </style>
