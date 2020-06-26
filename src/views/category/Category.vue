@@ -114,13 +114,15 @@ import BScroll from "better-scroll";
 export default {
   name: "Category",
   data() {
-    return {};
+    return {
+      scroll:null
+    };
   },
   created() {
     
   },
   mounted() {
-    let bs = new BScroll(".wrapper", {});
+    this.scroll = new BScroll(".wrapper", {});
   },
 };
 </script>
